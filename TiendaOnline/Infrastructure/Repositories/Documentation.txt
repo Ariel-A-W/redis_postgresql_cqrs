@@ -1,0 +1,21 @@
+﻿Script para el Stock 
+********************* 
+
+El siguiente script es para construir la tabla en la base de datos.
+
+
+-- DROP TABLE public.stocks;
+
+CREATE TABLE public.stocks (
+	id serial4 NOT NULL,
+	codigo varchar(10) NOT NULL,
+	producto varchar(100) NOT NULL,
+	cantidad_minima int4 DEFAULT 0, 
+	cantidad_maxima int4 DEFAULT 0, 
+	cantidad_actual int4 DEFAULT 0, 
+	iva numeric(11,2)  DEFAULT 0.0, 
+	precio_unidad numeric(11,2) DEFAULT 0.0, 
+	precio_mas_iva numeric(11,2) DEFAULT 0.0, 
+	existencial varchar(10) NOT NULL, 
+	CONSTRAINT stocks_pkey PRIMARY KEY (id)
+);

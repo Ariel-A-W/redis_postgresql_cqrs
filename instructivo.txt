@@ -1,0 +1,84 @@
+Instalar Redis y PostgresSQL en Docker 
+*************************************** 
+
+Redis 
+******
+
+docker pull redis/redis-stack-server:latest
+docker run -d --name redis-container -p 6379:6379 -e REDIS_PASSWORD=admin_redis redis:latest redis-server --requirepass admim_redis
+
+Test Redis for Console 
+***********************
+
+docker exec -it redis-container redis-cli
+
+auth yourpassword
+
+
+PostgreSQL 
+*********** 
+
+docker pull postgres
+
+docker run --name postgresql -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5432:5432 -v /data:/var/lib/postgresql/data -d postgres 
+
+docker start postgresqldb
+
+
+Crear solución y proyecto nuevo Web API 
+****************************************
+
+dotnet new webapi --name TiendaOnline
+
+dotnet new sln -n TiendaOnline 
+
+dotnet sln TiendaOnline.sln add TiendaOnline/TiendaOnline.csproj
+
+
+Añadir dependencias 
+********************
+
+/TiendaOnline 
+
+dotnet add package docker-support 
+
+dotnet add pacakage EFCore.NamingConventions --version 8.0.3
+dotnet add pacakage FluentValidation.DependencyInjectionExtensions --version 11.9.2
+dotnet add pacakage MediatR --version 12.4.0 
+dotnet add pacakage Microsoft.AspNetCore.OpenApi --version 8.0.8 
+dotnet add pacakage Microsoft.EntityFrameworkCore.Tools --version 8.0.8 
+dotnet add pacakage Microsoft.Extensions.Caching.StackExchangeRedis --version 8.0.8 
+dotnet add pacakage Microsoft.Extensions.Configuration --version 8.0.0 
+dotnet add pacakage Microsoft.Extensions.Configuration.Abstractions --version 8.0.0 
+dotnet add pacakage Microsoft.Extensions.DependencyInjection.Abstractions --version 8.0.1 
+dotnet add pacakage Microsoft.VisualStudio.Azure.Containers.Tools.Targets --version 1.21.0 
+dotnet add pacakage Microsoft.VisualStudio.Web.CodeGeneration.Design --version 8.0.4 
+dotnet add pacakage Npgsql --version 8.0.3 
+dotnet add pacakage Npgsql.EntityFrameworkCore.PostgreSQL --version 8.0.4 
+dotnet add pacakage StackExchange.Redis --version 2.8.0 
+dotnet add pacakage Swashbuckle.AspNetCore --version 6.7.2 
+
+
+Archivo del Proyecto 
+**********************
+
+  <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" Version="8.0.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.2" />
+  </ItemGroup>

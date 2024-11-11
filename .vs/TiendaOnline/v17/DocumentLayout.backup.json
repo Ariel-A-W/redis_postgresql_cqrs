@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|e:\\000_mis libros\\programaci\u00F3n_c#_net\\papers\\dockers\\redis_postgresql_cqrs\\tiendaonline\\application\\queries\\stocklisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\application\\queries\\stocklisthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|e:\\000_mis libros\\programaci\u00F3n_c#_net\\papers\\dockers\\redis_postgresql_cqrs\\tiendaonline\\application\\queries\\stockbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\application\\queries\\stockbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|e:\\000_mis libros\\programaci\u00F3n_c#_net\\papers\\dockers\\redis_postgresql_cqrs\\tiendaonline\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF1C809-7D1E-431B-A8FF-BD4CAD9F9C8A}|TiendaOnline\\TiendaOnline.csproj|solutionrelative:tiendaonline\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 969,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockListHandler.cs",
+              "DocumentMoniker": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Application\\Queries\\StockListHandler.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\Application\\Queries\\StockListHandler.cs",
+              "ToolTip": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Application\\Queries\\StockListHandler.cs",
+              "RelativeToolTip": "TiendaOnline\\Application\\Queries\\StockListHandler.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAE8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:53:15.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\Controllers\\StockController.cs",
+              "ToolTip": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Controllers\\StockController.cs",
+              "RelativeToolTip": "TiendaOnline\\Controllers\\StockController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:46:05.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockByIdHandler.cs",
+              "DocumentMoniker": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Application\\Queries\\StockByIdHandler.cs",
+              "RelativeDocumentMoniker": "TiendaOnline\\Application\\Queries\\StockByIdHandler.cs",
+              "ToolTip": "E:\\000_Mis Libros\\Programaci\u00F3n_C#_NET\\Papers\\Dockers\\Redis_PostgreSQL_CQRS\\TiendaOnline\\Application\\Queries\\StockByIdHandler.cs",
+              "RelativeToolTip": "TiendaOnline\\Application\\Queries\\StockByIdHandler.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:45:32.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 741,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
